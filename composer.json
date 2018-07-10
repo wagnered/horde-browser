@@ -1,0 +1,33 @@
+{
+    "name": "edw/horde-browser",
+    "description": "Horde Browser for Laravel framework.",
+    "type": "library",
+    "license": "LGPL-2.1-only",
+    "authors": [
+        {
+            "name": "Chuck Hagenbuch",
+            "email": "chuck@horde.org"
+        }
+    ],
+    "require": {},
+"repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "edw/horde-browser",
+            "version": "dev-master",
+            "source": {
+                "url": "git://github.com/wagnered/horde-browser.git",
+                "type": "git",
+                "reference": "master"
+            },
+            "autoload": {
+                "psr-4" : {
+                    "Horde" : "lib"
+                }
+            }
+        }
+    }
+]
+}
+
